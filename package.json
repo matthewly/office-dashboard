@@ -1,0 +1,10 @@
+{
+  "name": "payroll-dashboard",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "twilio": "^3.17.6"
+  }
+}

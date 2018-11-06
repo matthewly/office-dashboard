@@ -1,0 +1,9 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+  	<span class="label" data-bind="item['worker']"></span>
+    - <span class="label gray" data-showif="item['aniv']" data-bind="item['num_years']"></span>
+    <span class="value" data-showif="item['aniv']" data-bind="item['aniv']"></span>
+  </li>
+</ul>

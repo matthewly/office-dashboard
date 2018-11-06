@@ -1,0 +1,11 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+    <span class="label" data-bind="item['worker']"></span>
+    
+    - <img src="https://maxcdn.icons8.com/Share/icon/Food//birthday_cake1600.png" data-hideif="item['num_years']">
+    <span class="label gray" data-showif="item['num_years']" data-bind="item['num_years']"></span>
+    <span class="value" data-showif="item['date']" data-bind="item['date']"></span> 
+  </li>
+</ul>

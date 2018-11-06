@@ -1,0 +1,1 @@
+class Dashing.anniversaries extends Dashing.Widget
